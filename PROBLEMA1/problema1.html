@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inmobiliaria</title>
+    <link rel="stylesheet" href="problema1.css">
+</head>
+<body>
+
+
+<main>
+    <div class="container">
+
+        <img src="IMG/logo.png" alt="ISIL LOGO">
+
+        <h3 id="problema">Diseñar una aplicación web (HTML, CSS y JS) para una inmobiliaria con la finalidad de venta de departamentos que muestre la imagen y detalles del proyecto de vivienda o departamentos seleccionado avanzando entre imágenes con los botones atrás y siguiente.
+           La aplicación deberá mostrar 10 imágenes de diferentes departamentos o viviendas. Al llegar al tope sea el inicio o final de las imágenes mostrar el mensaje respectivo.  </h3>
+
+
+        <div class="image-container">
+            <img id="imagen" src="" alt="Imagen de la casa">
+        </div>
+        <div class="detalles" id="detalles">
+            <p id="area">Área: </p>
+            <p id="precio">Precio: </p>
+            <p id="ubicacion">Lugar: </p>
+        </div>
+        <div class="buttons">
+            <button id="prev" onclick="showPrevious()">Atrás</button>
+            <button id="next" onclick="showNext()">Siguiente</button>
+        </div>
+        <p id="mensaje"></p>
+
+        <footer>
+            <h4>Sebastian Huallanca Cabrera / Examen Final   / Introduccion a la Programación</h4>
+        </footer>
+    </div>
+
+</main>
+
+    <script src="problema1.js"></script>
+</body>
+</html>
+
